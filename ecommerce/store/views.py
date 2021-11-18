@@ -14,3 +14,8 @@ def cart(request):
 def checkout(request):
     context = {}
     return render(request, 'store/checkout.html', context)
+
+
+def product(request):
+    context = {}
+    return render(request, 'store/product.html', context)

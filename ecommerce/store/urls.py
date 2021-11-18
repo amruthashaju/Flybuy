@@ -9,5 +9,6 @@ urlpatterns = [
     path('checkout/', views.checkout, name="checkout"),
     path('accounts/', include('accounts.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
+    path('product/', views.product, name="product"),
 
 ]
